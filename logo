@@ -1,0 +1,17 @@
+<svg width="200" height="50" viewBox="0 0 200 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Circle -->
+  <circle cx="100" cy="25" r="20" fill="#FFFFFF" />
+  
+  <!-- Flames (Stylized "S") -->
+  <path d="M80 15 L90 20 L100 25 L110 20 L120 15 Z" fill="#FFC080" />
+  <path d="M90 20 L100 25 L110 20 Z" fill="#FFC080" />
+  <path d="M100 25 L110 20 L120 15 Z" fill="#FFC080" />
+  
+  <!-- Gradient Effect -->
+  <linearGradient id="gradient" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#FFC080" />
+    <stop offset="1" stop-color="#FF9900" />
+  </linearGradient>
+  <circle cx="100" cy="25" r="20" fill="url(#gradient)" />
+</svg>
+
